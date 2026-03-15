@@ -14,7 +14,7 @@ A high-performance distributed sparse matrix multiplication implementation using
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
+- [Overview](##overview)
 - [Features](#features)
 - [Architecture](#architecture)
 - [Project Structure](#project-structure)
