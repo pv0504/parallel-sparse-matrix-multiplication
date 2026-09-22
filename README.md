@@ -12,7 +12,7 @@ A high-performance distributed sparse matrix multiplication implementation using
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -29,7 +29,7 @@ A high-performance distributed sparse matrix multiplication implementation using
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This project implements an efficient distributed sparse matrix multiplication algorithm that leverages:
 
@@ -41,16 +41,16 @@ The implementation uses a **block-sparse matrix format** to minimize memory over
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Capabilities
-- ✅ **Hybrid Parallelization**: Combines MPI, OpenMP, and CUDA
-- ✅ **Block-Sparse Format**: Memory-efficient sparse matrix representation
-- ✅ **Distributed Architecture**: Scales across multiple compute nodes
-- ✅ **Dynamic Load Balancing**: Intelligent work distribution among processes
-- ✅ **Parallel I/O**: Concurrent matrix file reading
-- ✅ **Tree Reduction**: Binary tree-based result aggregation
-- ✅ **Thread-Safe**: Critical sections and atomic operations for correctness
+- **Hybrid Parallelization**: Combines MPI, OpenMP, and CUDA
+- **Block-Sparse Format**: Memory-efficient sparse matrix representation
+- **Distributed Architecture**: Scales across multiple compute nodes
+- **Dynamic Load Balancing**: Intelligent work distribution among processes
+- **Parallel I/O**: Concurrent matrix file reading
+- **Tree Reduction**: Binary tree-based result aggregation
+- **Thread-Safe**: Critical sections and atomic operations for correctness
 
 ### Performance Optimizations
 - GPU acceleration via CUDA kernels
@@ -60,7 +60,7 @@ The implementation uses a **block-sparse matrix format** to minimize memory over
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -111,7 +111,7 @@ The implementation uses a **block-sparse matrix format** to minimize memory over
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 parallel-sparse-matrix-multiplication/
@@ -145,7 +145,7 @@ parallel-sparse-matrix-multiplication/
 
 ---
 
-## 📦 Prerequisites
+## Prerequisites
 
 ### System Requirements
 - **GPU**: NVIDIA CUDA-capable GPU (Compute Capability 3.0+)
@@ -191,7 +191,7 @@ brew install gcc
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Building the Project
 
